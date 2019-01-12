@@ -6,6 +6,11 @@ class Users extends CI_Controller {
 	public function __construct()
 	{
 		parent :: __construct();
+         //validasi jika user belum login
+        if($this->session->userdata('masuk') != TRUE){
+            $url=base_url('');
+            redirect($url);
+        }
 		$this->load->model("user_model");
 		$this->load->library("form_validation");
 	}

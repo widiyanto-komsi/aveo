@@ -1,10 +1,14 @@
 <?php
 
 class Overview extends CI_Controller {
-    public function __construct()
-    {
-		parent::__construct();
-	}
+    public function __construct(){
+	    parent::__construct();
+	    //validasi jika user belum login
+	    if($this->session->userdata('masuk') != TRUE){
+			$url=base_url('');
+			redirect($url);
+		}
+    }
 
 	public function index()
 	{

@@ -15,3 +15,7 @@
 
 <!-- Custom styles for this template-->
 <link href="<?php echo base_url('css/sb-admin.css') ?>" rel="stylesheet">
+
+<link href="<?php echo base_url('assets/css/login.css') ?>" rel="stylesheet" type="text/css">
+
+
