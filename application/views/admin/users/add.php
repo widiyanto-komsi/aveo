@@ -28,7 +28,7 @@
 			</div>
 		<?php endif; ?>
 
-		<form action="<?php base_url('admin/user/add') ?>" class="form-horizontal" role="form" method="post" enctype="multipart/form-data">
+		<form action="<?php base_url('admin/users/add') ?>" class="form-horizontal" role="form" method="post" enctype="multipart/form-data">
 			<div class="form-group">
 			  <label class="control-label col-sm-2" for="name">Name*:</label>
 			  <div class="col-sm-10">

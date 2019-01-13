@@ -8,7 +8,7 @@ class Users extends CI_Controller {
 		parent :: __construct();
          //validasi jika user belum login
         if($this->session->userdata('masuk') != TRUE){
-            $url=base_url('');
+            $url=base_url('index.php/admin');
             redirect($url);
         }
 		$this->load->model("user_model");

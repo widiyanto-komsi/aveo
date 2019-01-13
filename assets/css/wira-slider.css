@@ -1,0 +1,152 @@
+.caption-news-wira-date {
+  font-size:12px;
+}
+
+.caption-news-wira-title {
+  margin-bottom:5px;
+}
+
+.caption-news-wira {
+  position:absolute;
+  width:100%;
+  /*height:20px;*/
+  bottom:0px;
+  background-color:rgba(62,62,62,0.47);
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:30px;
+  color:white;
+}
+
+.title-slider-underline-base {
+  width:100%;
+  height:2px;
+  margin-top:0px;
+  color:white;
+  background-color:white;
+  margin-bottom:5px;
+}
+
+.slider-title-wira-wrapper {
+  margin-top:15px;
+  position:absolute;
+  top:0px;
+  padding-left:15px;
+  width:100%;
+  padding-right:15px;
+  /*padding-bottom:5px;*/
+  color:white;
+  background-color:rgba(109,109,109,0.35);
+}
+
+.wira-slide {
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom:25px;
+  margin-top:15px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size:0px;
+}
+
+@media (min-width: 300px) {
+  .wira-img-slider {
+    background-size:auto 100%;
+    background-position:center;
+  }
+}
+
+@media (min-width: 768px) {
+  .wira-img-slider {
+    background-size:100% auto;
+    background-position:center;
+  }
+}
+
+.wira-img-slider {
+  position:relative;
+  height:500px;
+}
+
+.lazy {
+  position:relative;
+}
+
+.slick-slide {
+  /*height:100%;*/
+  /*margin-left:0px;*/
+  /*margin-right:0px;*/
+}
+
+.mbuh {
+  height:40px;
+  width:40px;
+  background-color:rgba(0,0,0,0.3);
+}
+
+.slick-dots li {
+  background-color:black;
+  border-radius:50%;
+  width:7px;
+  height:7px;
+}
+
+.slick-prev {
+  left:10px;
+  z-index:1;
+  border-top:20px solid transparent;
+  border-bottom:20px solid transparent;
+  border-right:20px solid rgba(0,0,0,0.3);
+}
+
+.slick-next {
+  right:10px;
+  z-index:1;
+  width:0;
+  height:0;
+  border-top:20px solid transparent;
+  border-bottom:20px solid transparent;
+  border-left:20px solid rgba(0,0,0,0.3);
+}
+
+* {
+  box-sizing:border-box;
+}
+
+.slider {
+  /*width:800px;*/
+}
+
+.slick-slide {
+  /*margin:0px 20px;*/
+}
+
+.slick-slide img {
+  width:100%;
+}
+
+.slick-prev:before, .slick-next:before {
+  color:black;
+}
+
+.slick-slide {
+  transition:all ease-in-out .3s;
+  opacity:.2;
+}
+
+.slick-active {
+  opacity:.5;
+}
+
+.slick-current {
+  opacity:1;
+}
+
+body {
+}
+

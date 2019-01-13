@@ -21,7 +21,7 @@ class Login extends CI_Controller{
 			$this->session->set_userdata('ses_name',$data['name']);
 			redirect('admin/overview');
 		}else{  // jika username dan password tidak ditemukan atau salah
-			$url=base_url('');
+			$url=base_url('index.php/admin');
 			echo $this->session->set_flashdata('msg','Username Atau Password Salah');
 			redirect($url);
 		}  					  
@@ -30,7 +30,7 @@ class Login extends CI_Controller{
 
     function logout(){
         $this->session->sess_destroy();
-        $url=base_url('');
+        $url=base_url('index.php/admin');
         redirect($url);
     }
 
